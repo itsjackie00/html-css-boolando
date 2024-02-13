@@ -14,6 +14,7 @@
 body {
     font-family: "Montserrat", sans-serif;
 }
+
 :root {
     --color-bg-nav: #ff6900;
     --color-bg-main: #ffffff;
@@ -21,16 +22,20 @@ body {
     --color-discount: #ff0000;
     --color-sustainability: #008000;
 }
+
 ul {
     list-style: none;
 }
+
 a {
     text-decoration: none;
 }
+
 .container {
     max-width: 1200px;
     margin: 30px auto;
 }
+
 .small-container {
     max-width: 1000px;
     margin: 0 auto;
@@ -44,13 +49,16 @@ a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.208);
     background-color: var(--color-bg-nav);
 }
+
 a,
 .font-awesome {
     color: var(--color-bg-main);
 }
+
 nav ul li {
     padding: 10px 15px;
 }
+
 div i {
     padding-right: 10px;
 }
@@ -60,10 +68,49 @@ div i {
     width: 120px;
 }
 
-/*  Card Img */
-.image{
-    width: 300px;
+/*  Card */
+.image {
+    width: 400px;
+    display: block;
 }
+
+.card {
+    width: calc(100% / 3 - 10px);
+    cursor: pointer;
+}
+
+.card-image {
+    position: relative;
+}
+
+.badge{
+    background-color: var(--color-discount);
+    color:var(--color-bg-main);
+    padding: 5px;
+    text-align:left;
+    position:absolute;
+    bottom: 100px;
+    left:0px;
+}
+.sostenibility{
+    background-color: var(--color-sustainability);
+    color:var(--color-bg-main);
+    padding: 5px;
+    text-align:left;
+    position:absolute;
+    bottom: 100px;
+    left:55px;
+}
+.heart{
+    padding: 10px;
+    color: var(--color-primary);
+    background-color: var(--color-bg-main);
+    position:absolute;
+    text-align: right;
+    right: 20px;
+    top:10px;
+}
+
 
 /* Flex */
 .d-flex {
