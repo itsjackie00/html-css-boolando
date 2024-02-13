@@ -24,13 +24,9 @@ ul {
 a {
     text-decoration: none;
 }
-.gap{
-    gap: 70px;
-}
 
-/* Main */
-main{
-    background-color: var(--color-bg-main);
+.gap {
+    gap: 70px;
 }
 
 /* Container */
@@ -45,11 +41,17 @@ main{
     margin: 0 auto;
 }
 
+/* Main */
+main {
+    background-color: var(--color-bg-main);
+}
+
 /* Navigation */
 .navigation {
     width: 100%;
-    height: 50px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.208);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 2px 5px #aaaaaa;
     background-color: var(--color-bg-nav);
 }
 
@@ -65,18 +67,18 @@ nav ul li {
 div i {
     padding-right: 10px;
 }
-p{
+
+p {
     padding-top: 5px;
     padding-right: 10px;
 }
 
-/* Logo Img */
 #img-logo {
     width: 120px;
 }
 
 /* Utility */
-.red{
+.red {
     color: var(--color-discount);
 }
 
@@ -84,75 +86,90 @@ p{
 .image {
     width: 250px;
     display: block;
-    vertical-align: bottom;
 }
-.secondary-image{
+
+.secondary-image {
     display: none;
     width: 250px;
 }
-.card:hover .image{
-    display:none;
+
+.card:hover .image {
+    display: none;
 }
-.card:hover .secondary-image{
-    display:block;
+
+.card:hover .secondary-image {
+    display: block;
 }
+
 .card {
     width: calc(100% / 3 - 70px);
     cursor: pointer;
 }
+
+a:hover {
+    text-decoration: underline;
+  }
+
+div nal ul li,
+div div img,
+i {
+    cursor: pointer;
+}
+
 .card-image {
     position: relative;
 }
 
-.badge{
+/* badge */
+.badge {
     background-color: var(--color-discount);
-    color:var(--color-bg-main);
+    color: var(--color-bg-main);
     padding: 5px;
-    text-align:left;
-    position:absolute;
+    text-align: left;
+    position: absolute;
     bottom: 100px;
-    left:0px;
+    left: 0px;
 }
-.sostenibility{
+
+.sostenibility {
     background-color: var(--color-sustainability);
-    color:var(--color-bg-main);
+    color: var(--color-bg-main);
     padding: 5px;
-    text-align:left;
-    position:absolute;
+    text-align: left;
+    position: absolute;
     bottom: 100px;
-    left:55px;
+    left: 55px;
 }
-.sostenibility2{
+
+.sostenibility2 {
     background-color: var(--color-sustainability);
-    color:var(--color-bg-main);
+    color: var(--color-bg-main);
     padding: 5px;
-    text-align:left;
-    position:absolute;
+    text-align: left;
+    position: absolute;
     bottom: 100px;
 }
-.heart{
+
+.heart {
     padding: 10px;
     color: var(--color-primary);
     background-color: var(--color-bg-main);
-    position:absolute;
+    position: absolute;
     right: 10px;
-    top:10px;
-}
-.price{
-    padding-right: 10px;
+    top: 10px;
 }
 
-/* Footer */
-footer{
-    background-color: var(--color-primary);
-    width: 100%;
-    height: 100%;
-    color: var(--color-bg-main);
+.price {
+    padding-right: 10px;
 }
 
 /* Flex */
 .d-flex {
     display: flex;
+}
+
+.align-items {
+    align-content: center;
 }
 
 .j-content {
@@ -162,6 +179,20 @@ footer{
 .s-between {
     justify-content: space-between;
 }
-.f-wrap{
+
+.f-wrap {
     flex-wrap: wrap;
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-primary);
+    width: 100%;
+    height: 100px;
+    color: var(--color-bg-main);
+    padding-top: 10px;
+}
+
+.social {
+    padding-top: 10px;
 }
