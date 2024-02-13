@@ -3,3 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+.debug{
+    border:2px solid red;
+    height: 50%;
+    width: 50%;
+}
+
+/* General */
+body{
+    font-family: "Montserrat", sans-serif;
+}
+:root {
+	--color-bg-nav: #ff6900;
+	--color-bg-main: #ffffff;
+	--color-primary: #1a1a1a;
+	--color-discount: #ff0000;
+	--color-sustainability: #008000;
+}
