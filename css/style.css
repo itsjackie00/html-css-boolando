@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-.debug {
-    border: 2px solid red;
-    height: 50%;
-    width: 100%;
-}
-
 /* General */
 body {
     font-family: "Montserrat", sans-serif;
@@ -30,10 +24,14 @@ ul {
 a {
     text-decoration: none;
 }
+.gap{
+    gap: 70px;
+}
 
+/* Container */
 .container {
     max-width: 1200px;
-    margin: 30px auto;
+    margin: 50px auto;
 }
 
 .small-container {
@@ -62,20 +60,29 @@ nav ul li {
 div i {
     padding-right: 10px;
 }
+p{
+    padding-top: 5px;
+    padding-right: 10px;
+}
 
 /* Logo Img */
 #img-logo {
     width: 120px;
 }
 
+/* Utility */
+.red{
+    color: var(--color-discount);
+}
+
 /*  Card */
 .image {
-    width: 400px;
+    width: 300px;
     display: block;
 }
 
 .card {
-    width: calc(100% / 3 - 10px);
+    width: calc(100% / 3 - 70px);
     cursor: pointer;
 }
 
@@ -101,14 +108,24 @@ div i {
     bottom: 100px;
     left:55px;
 }
+.sostenibility2{
+    background-color: var(--color-sustainability);
+    color:var(--color-bg-main);
+    padding: 5px;
+    text-align:left;
+    position:absolute;
+    bottom: 100px;
+}
 .heart{
     padding: 10px;
     color: var(--color-primary);
     background-color: var(--color-bg-main);
     position:absolute;
-    text-align: right;
-    right: 20px;
+    right: -40px;
     top:10px;
+}
+.price{
+    padding-right: 10px;
 }
 
 
@@ -123,4 +140,7 @@ div i {
 
 .s-between {
     justify-content: space-between;
+}
+.f-wrap{
+    flex-wrap: wrap;
 }
