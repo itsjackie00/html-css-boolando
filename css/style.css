@@ -20,3 +20,9 @@ body{
 	--color-discount: #ff0000;
 	--color-sustainability: #008000;
 }
+
+/* Logo Img */
+#img-logo{
+    width: 150px;
+    
+}
