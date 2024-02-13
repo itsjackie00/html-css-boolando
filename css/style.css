@@ -1,71 +1,79 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.debug{
-    border:2px solid red;
+
+.debug {
+    border: 2px solid red;
     height: 50%;
     width: 100%;
 }
 
 /* General */
-body{
+body {
     font-family: "Montserrat", sans-serif;
 }
 :root {
-	--color-bg-nav: #ff6900;
-	--color-bg-main: #ffffff;
-	--color-primary: #1a1a1a;
-	--color-discount: #ff0000;
-	--color-sustainability: #008000;
+    --color-bg-nav: #ff6900;
+    --color-bg-main: #ffffff;
+    --color-primary: #1a1a1a;
+    --color-discount: #ff0000;
+    --color-sustainability: #008000;
 }
-ul{
+ul {
     list-style: none;
 }
-a{
+a {
     text-decoration: none;
 }
-.container{
+.container {
     max-width: 1200px;
-    margin: 0;
+    margin: 30px auto;
 }
-.small-container{
+.small-container {
     max-width: 1000px;
     margin: 0 auto;
     align-items: center;
 }
 
 /* Navigation */
-.navigation{
+.navigation {
     width: 100%;
-    height: 60px;
+    height: 50px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.208);
     background-color: var(--color-bg-nav);
-    
 }
-a, .font-awesome{
+a,
+.font-awesome {
     color: var(--color-bg-main);
 }
-nav ul li{
+nav ul li {
     padding: 10px 15px;
 }
-div i{
+div i {
     padding-right: 10px;
 }
 
 /* Logo Img */
-#img-logo{
+#img-logo {
     width: 120px;
 }
 
+/*  Card Img */
+.image{
+    width: 300px;
+}
+
 /* Flex */
-.d-flex{
+.d-flex {
     display: flex;
 }
-.j-content{
+
+.j-content {
     justify-content: space-between;
 }
-.s-between{
+
+.s-between {
     justify-content: space-between;
 }
