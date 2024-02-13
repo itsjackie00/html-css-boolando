@@ -162,7 +162,24 @@ i {
 .price {
     padding-right: 10px;
 }
-
+/* drop down menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 110px;
+    z-index: 1;
+  }
+.dropdown-content a {
+    color: var(--color-primary);
+    padding: 5px 3px;
+    display: block;
+  }
+  .dropdown:hover .dropdown-content {display: block;}
 /* Flex */
 .d-flex {
     display: flex;
