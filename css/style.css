@@ -121,7 +121,7 @@ a:hover {
     text-decoration: underline;
   }
 
-div nal ul li,
+div nav ul li,
 div div img,
 i {
     cursor: pointer;
@@ -220,6 +220,15 @@ footer {
     height: 100px;
     color: var(--color-bg-main);
     padding-top: 10px;
+}
+div ul li a{
+    padding: 10px 5px;
+}
+h4{
+    padding-left: 5px;
+}
+h5{
+    text-align: center;
 }
 
 .social {
