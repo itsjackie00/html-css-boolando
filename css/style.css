@@ -29,8 +29,6 @@ a {
 .gap {
     gap: 30px;
 }
-
-/* Container */
 .container {
     max-width: 1200px;
     margin: 0px auto;
@@ -41,13 +39,6 @@ a {
 .small-container {
     max-width: 1000px;
     margin: 0 auto;
-}
-
-/* Main */
-main.container {
-    background-color: var(--color-bg-main);
-    margin-top: 100px;
-    margin-bottom: 30px;
 }
 
 /* Navigation */
@@ -89,6 +80,13 @@ header nav img{
 /* Utility */
 .red {
     color: var(--color-discount);
+}
+
+/* Main */
+main.container {
+    background-color: var(--color-bg-main);
+    margin-top: 100px;
+    margin-bottom: 30px;
 }
 
 /*  Card */
@@ -138,9 +136,6 @@ i {
     position: absolute;
     bottom: 100px;
     left: 0px;
-}
-.badge span{
-
 }
 
 .sostenibility {
