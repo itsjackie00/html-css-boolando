@@ -51,7 +51,7 @@ header {
     height: 70px;
     padding-top: 10px;
     padding-bottom: 10px;
-    box-shadow: 0px 2px 5px #aaaaaa;
+    box-shadow: 0px 1px 3px #aaaaaa;
     background-color: var(--color-bg-nav);
 }
 
@@ -222,10 +222,10 @@ footer {
     padding-top: 10px;
 }
 div ul li a{
-    padding: 10px 5px;
+    padding: 10px 10px;
 }
 h4{
-    padding-left: 5px;
+    padding-left: 10px;
 }
 h5{
     text-align: center;
