@@ -27,13 +27,14 @@ a {
 }
 
 .gap {
-    gap: 70px;
+    gap: 30px;
 }
 
 /* Container */
 .container {
     max-width: 1200px;
-    margin: 50px auto;
+    margin: 0px auto;
+    padding: 10px;
     justify-items: center;
 }
 
@@ -43,13 +44,20 @@ a {
 }
 
 /* Main */
-main {
+main.container {
     background-color: var(--color-bg-main);
+    margin-top: 100px;
+    margin-bottom: 30px;
 }
 
 /* Navigation */
 header {
     width: 100%;
+    position: fixed;
+    z-index: 3000;
+    top: 0;
+    left: 0;
+    height: 70px;
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: 0px 2px 5px #aaaaaa;
@@ -73,10 +81,10 @@ p {
     padding-top: 5px;
     padding-right: 10px;
 }
-
-#img-logo {
-    width: 120px;
+header nav img{
+    height: 50px;
 }
+
 
 /* Utility */
 .red {
@@ -84,14 +92,18 @@ p {
 }
 
 /*  Card */
+.card-image {
+    position: relative;
+}
+.card img{
+    width: 100%;
+}
 .image {
-    width: 250px;
     display: block;
 }
 
 .secondary-image {
     display: none;
-    width: 250px;
 }
 
 .card:hover .image {
@@ -103,7 +115,7 @@ p {
 }
 
 .card {
-    width: calc(100% / 3 - 70px);
+    width: calc(100% / 3 - 30px);
     cursor: pointer;
 }
 
@@ -117,25 +129,24 @@ i {
     cursor: pointer;
 }
 
-.card-image {
-    position: relative;
-}
-
 /* badge */
 .badge {
     background-color: var(--color-discount);
     color: var(--color-bg-main);
-    padding: 5px;
+    padding: 3px;
     text-align: left;
     position: absolute;
     bottom: 100px;
     left: 0px;
 }
+.badge span{
+
+}
 
 .sostenibility {
     background-color: var(--color-sustainability);
     color: var(--color-bg-main);
-    padding: 5px;
+    padding: 3px;
     text-align: left;
     position: absolute;
     bottom: 100px;
@@ -145,7 +156,7 @@ i {
 .sostenibility2 {
     background-color: var(--color-sustainability);
     color: var(--color-bg-main);
-    padding: 5px;
+    padding: 3px;
     text-align: left;
     position: absolute;
     bottom: 100px;
@@ -156,7 +167,7 @@ i {
     color: var(--color-primary);
     background-color: var(--color-bg-main);
     position: absolute;
-    right: 10px;
+    right: 0px;
     top: 10px;
 }
 .heart:hover{
@@ -186,7 +197,7 @@ i {
   }
   .dropdown:hover .dropdown-content {display: block;}
 
-/* Flex */
+/* Flex Utility*/
 .d-flex {
     display: flex;
 }
